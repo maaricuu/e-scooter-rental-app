@@ -40,5 +40,5 @@ E-Scooter-Rental-App/
 2. **Copy project folder** to `htdocs`   
 3. **Import the database**:  
    - Open phpMyAdmin, create a database
-   - Import `database/e_scooter.sql`.    
-4. **Open in browser**: `http://localhost/E-Scooter-rental-app/php/index.php`
+   - Import `database/baza.sql`.    
+4. **Open in browser**: `http://localhost/projekat/index.php`
