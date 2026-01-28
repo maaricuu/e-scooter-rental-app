@@ -34,3 +34,11 @@ E-Scooter-Rental-App/
 ├── interni.php           # Employee interface for internal management
 └── faktura.php           # Page for generating and displaying invoices
 ```
+## How to Run Locally
+
+1. **Install XAMPP** and start **Apache** and **MySQL**.  
+2. **Copy project folder** to `htdocs`   
+3. **Import the database**:  
+   - Open phpMyAdmin, create a database
+   - Import `database/e_scooter.sql`.    
+4. **Open in browser**: `http://localhost/E-Scooter-Rental-App/php/index.php`
