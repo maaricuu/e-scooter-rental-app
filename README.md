@@ -1,1 +1,36 @@
-# e-scooter-rental-app
+# E-Scooter Rental App
+
+E-Scooter Rental App is a web application developed as a personal project to demonstrate database handling, form management, and interactive interfaces using PHP, MySQL, and JavaScript.
+
+The project simulates a complete electric scooter rental system for learning and portfolio purposes.
+
+## Features
+- User interface with login and dashboard
+- Scooter selection based on location
+- Rental form with user details
+- Ride summary with price calculation
+- Problem reporting for scooters
+- Employee interface for internal management
+- Invoice generation for serviced scooters
+
+## Technologies Used
+- PHP
+- MySQL
+- JavaScript
+- HTML & CSS
+- XAMPP (Apache & MySQL)
+
+## Project Structure
+```
+E-Scooter-Rental-App/
+├── konekcija.php          # PHP file for database connection
+├── index.php             # Login page
+├── pocetna.php           # User dashboard / home page
+├── trotineti.php         # Page to select a scooter by location
+├── iznajmljivanje.php    # Form for entering user rental details
+├── zavrsi_voznju.php     # PHP file for calculating ride cost and ending time
+├── voznja.php            # Ride summary: price, history table, problem reporting
+├── prijavi_problem.php    # PHP file to submit scooter problem reports
+├── interni.php           # Employee interface for internal management
+└── faktura.php           # Page for generating and displaying invoices
+```
