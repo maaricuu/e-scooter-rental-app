@@ -1,0 +1,87 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .scroll-tabela {
+            max-height: 300px;
+            overflow-y: auto;
+            margin-bottom: 40px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .forma-blok {
+            background-color: #e6ffe6;
+            padding: 30px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .forma-blok input,
+        .forma-blok select {
+            width: 60%;
+            padding: 10px;
+            margin: 8px 0;
+            text-align: center;
+        }
+
+        .checkbox-grupa {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 10px 0;
+        }
+
+        .checkbox-grupa label {
+            cursor: pointer;
+        }
+
+        .forma-blok button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .forma-blok button:hover {
+            background-color: #45a049;
+        }
+
+        .odjavi-btn {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            padding: 10px 20px;
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .odjavi-btn:hover {
+            background-color: #c9302c;
+        }
